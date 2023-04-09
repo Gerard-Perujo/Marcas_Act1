@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset=" UTF-8">
+    <title> Formulario_Reserva_Hotel</title>
+    <h1> Hotel Cala Trebalúger</h1>
+</head>
+<nav>
+    <table border="1">
+            <td>
+                <label for="Menu"> Menu </label>
+                <select name="Menu">
+                    <option value="Home"> Home</option>
+                    <option value="Act"> Actividades</option>
+                    <option value="Contact"> Sobre nosotros</option>
+                    <option value="Form"> Reserva</option>
+                </select>
+            </td>
+            <td coldspan="3">Publicaciones</td>
+            <td>Noticias</td>
+            <td>Localización</td>
+    </table>  
+</nav>
+<main>
+    <form action="procesarPeticion.jsp" method="post">
+     <h3>Datos de la Reserva del Hotel</h3>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="nombre">Nombre: </label>
+            <input id="nombre" type="text" name="nombre" autofocus required/>
+            <label for="1apellido">Primer Apellido: </label>
+            <input id="1apellido" type="text" name="1apellido" required/>
+            <label for="2apellido"> Segundo Apellido: </label>
+            <input for="2apellido" type="text" name="2apellido" required/>
+            </br>
+            </br>
+            <label for="DNI"> DNI: </label>
+            <input for="DNI" type="numer" name="DNI" required/>
+            <label for="telefono">Telefono: </label>
+            <input for="telefono" type="tel" name="telefono" required/>
+            <label for="email">Email: </label>
+            <input for="email" type="email" name="email" required/>
+            </br>
+            </br>
+            <label for="calle">Calle: </label>
+            <input for="calle" type="text" name="calle" required/>
+            <label for="numero">Numero: </label>
+            <input for="numero" type="numeber" name="numero" required/>
+            <label for="piso">Piso: </label>
+            <input for="piso" type="number" name="piso"/>
+            <label for="puerta">Puerta: </label>
+            <input for="puerta" type="number" name="puerta"/>
+            </br>
+            </br>
+            <label for="ciudad">Ciudad: </label>
+            <input for="ciudad" type="text" name="ciudad" required/>
+            <label for="CP">Codigo Postal: </label>
+            <input for="CP" type="number" name="CP" required/>
+            <label for="pais">Pais: </label>
+            <input for="pais" type="text" name="pais" required/>
+        </fieldset>
+        
+        </br>
+
+        <fieldset>
+            <legend>Datos de la Reserva</legend>
+            <label for="llegada" >Llegada: </label>
+            <input for="llegada" type="date" name="llegada" required/>
+            <label for="salida">Salida: </label>
+            <input for="salida" type="date" name="salida" required/>
+            <label for="personas">Personas: </label>
+            <select for="personas" type="number" name="personas" required>
+                <option value="0"></option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="4">4</option>
+            </select>
+            </br>
+            </br>
+            <label for="cama">Tipo de Cama:</label>
+            <select for="cama" type="text" name="cama" required>
+                <option value="0"></option>
+                <option value="Individual">Individual</option>
+                <option value="Doble">Doble</option>
+                <option value="King">King Size</option>
+            </select>
+            <label for="habitación">Tipo Habitación</label>
+            <select for="habitacion" type="text" name="habitacion" required>
+                <option value="0"></option>
+                <option value="Standart">Standart</option>
+                <option value="Supreme">Supreme</option>
+                <option value="Deluxe">Deluxe</option>
+            </select>
+            </br>
+            </br>
+            <label for="regimen">Regimen</label>
+            <select for="regimen" type="text" name="regimen" required>
+                <option value="0"></option>
+                <option value="Media">Media Pension</option>
+                <option value="completa">Pension Completa</option>
+                <option value="VIP">Todo Incluido</option>
+            </select>
+            <p>El Horario del Check-In es de 15.00 a 22.00 en caso de llegada tardia marcar el recuadro</p>
+            <input type="checkbox" name="horario" value="y"/> LLegada tardia
+            <label for="hora">Hora de Llegada</label>
+            <input for="hora" type="time" name="hora"/></br>
+            <label for="comentario">Comentario</label></br>
+            <textarea style="resize:none;" rows="5" cols="80" name="comentario"></textarea>
+        </fieldset>
+
+        </br>
+
+        <fieldset>
+            <legend>Actividades</legend>
+            <input type="checkbox" name="Actividades" value="ex"/>Excursiones
+            <input type="checkbox" name="Actividades" value="BTT"/>BTT Electrica
+            <input type="checkbox" name="Actividades" value="cavallo"/>Excursiones a cavallo</br>
+            <input type="checkbox" name="Actividades" value="spa"/>SPA
+            <input type="checkbox" name="Actividades" value="masaje"/>Masajes
+            <input type="checkbox" name="Actividades" value="manos"/>Manicura</br>
+            <input type="checkbox" name="Actividades" value="turistico"/>Salidas Turisticas
+            <input type="checkbox" name="Actividades" value="barco"/>Recorrido en Barco
+        </fieldset>
+
+         </br>
+
+         <fieldset>
+            <legend>Extras</legend>
+            <input type="checkbox" name="Extras" value="coche"/>Coche de Alquiler
+            <input type="checkbox" name="Extras" value="moto"/>Moto de Alquiler
+            <input type="checkbox" name="Extras" value="transporte"/>Recogida en Aeropuerto
+            <input type="checkbox" name="Extras" value="guarderia"/>Servicio de Guarderia
+         </fieldset>
+
+        </br>
+
+         <label for="terminos">Leer y Aceptar los terminos de uso</label>
+         <input type="checkbox" name="terminos" value="y"/>
+
+        </br>
+        </br>
+        <input type="submit" name="Enviar" value="Enviar"/>
+        <input type="reset" name="Reset" value="resetear formulario"/>
+        <input type="button" name="Cancelar" value="Cancelar"/>
+    </form>
+</main>
+<footer>
+    <p style="text-align:center;">Todos los derechos reservados copyright 2023</p>
+</footer>
+
+
+
+
+</html>
+
