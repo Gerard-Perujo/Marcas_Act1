@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+.menu{
+    width: 2000px;
+    background-size: auto;
+    background: crimson;
+}
+
+.menu>li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 120px;
+    color: bisque;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    color:darkgreen;
+    transition: all .3s;
+}
+.menu li a:hover{
+    color:darkgreen;
+    transition: all .3s;
+}
+
+.desplegable{
+    position: absolute;
+    background: crimson;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.desplegable li{
+    list-style: none;
+    display: block;
+    padding: 15px;
+    color: bisque;
+    text-decoration: none;
+}
+
+.menu li:hover .desplegable{
+    visibility: visible;
+    color:darkgreen;
+    opacity: 1;
+    
+}

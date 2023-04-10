@@ -5,27 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Formulario_Reserva_Hotel</title>
-    <link rel="stylesheet" href="css\fondo.css">
-    <h1> Hotel Cala Trebalúger</h1>   
+    <link rel="stylesheet" href="css\cabezera.css">
+    <link rel="stylesheet" href="css\menu.css">
 </head>
-<nav>
-    <table border="1">
-            <td>
-                <label for="Menu"> Menu </label>
-                <select name="Menu">
-                    <a href="home.html" target="home">
-                        <option src="home">Home</option>
-                        
-                    </a>
-                    <option value="Act"> Actividades</option>
-                    <option value="Contact"> Sobre nosotros</option>
-                    <option value="Form"> Reserva</option>
-                </select>
-            </td>
-            <td>Publicaciones</td>
-            <td>Noticias</td>
-            <td>Localización</td>
-    </table>  
+<body>
+   <div class="cabezera">
+     <h1 style="text-align: center;">Hotel Cala Trebalúger</h1>
+   </div> 
+</body>
+<nav class="menu">
+    <li>Menu
+        <ul class="desplegable">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="Actividades.html">Actividades</a></li>
+            <li><a href="Quienessomos.html">Quienes somos</a></li>
+            <li><a href="Reserva.html">Reserva</a></li>
+        </ul>
+    </li>
+    <li>Publicidad</li>
+    <li>Noticias</li>
+    <li>Publicaciones</li>
 </nav>
 <main>
     <form action="procesarPeticion.jsp" method="post">
