@@ -10,7 +10,7 @@
             <td>
                 <label for="Menu"> Menu </label>
                 <select name="Menu">
-                    <option value="Home"> Home</option>
+                    <option href="home.html" value="Home">home</option>
                     <option value="Act"> Actividades</option>
                     <option value="Contact"> Sobre nosotros</option>
                     <option value="Form"> Reserva</option>
@@ -23,7 +23,7 @@
 </nav>
 <main>
     <form action="procesarPeticion.jsp" method="post">
-     <h3>Datos de la Reserva del Hotel</h3>
+        <h3>Datos de la Reserva del Hotel</h3>
         <fieldset>
             <legend>Datos Personales</legend>
             <label for="nombre">Nombre: </label>
@@ -58,9 +58,9 @@
             <input for="CP" type="number" name="CP" required/>
             <label for="pais">Pais: </label>
             <input for="pais" type="text" name="pais" required/>
-        </fieldset>
+       </fieldset>
         
-        </br>
+       </br>
 
         <fieldset>
             <legend>Datos de la Reserva</legend>
@@ -120,6 +120,7 @@
             <input type="checkbox" name="Actividades" value="manos"/>Manicura</br>
             <input type="checkbox" name="Actividades" value="turistico"/>Salidas Turisticas
             <input type="checkbox" name="Actividades" value="barco"/>Recorrido en Barco
+            <input type="checkbox" name="Actividades" value="Sub"/>Submarinismo
         </fieldset>
 
          </br>
@@ -144,6 +145,23 @@
         <input type="button" name="Cancelar" value="Cancelar"/>
     </form>
 </main>
+<aside>
+    <a href="https://amigosboattrips.com/es">
+        <img src="img\boattrips.jpg">
+    </a>
+    <a href="https://www.menorcaacavall.com/es/inicio">
+        <img src="img\rutas cavallo.jpg">
+    </a>
+    <a href="https://guiasmenorca.com/es/inicio/">
+        <img src="img\guias turisticos.jpg">
+    </a>
+    <a href="http://menorcacyclingtours.com/">
+        <img src="img\menorca btt.jpg">
+    </a>
+    <a href="https://bluedivemenorca.com/?gclid=CjwKCAjw586hBhBrEiwAQYEnHakGBnZWJqqix905BcLxzA-QArHCdt5jBqWweo0KILJdBFKRc8RsdRoCSrkQAvD_BwE">
+        <img src="img\submarinismo.jpg">
+    </a>
+</aside>
 <footer>
     <p style="text-align:center;">Todos los derechos reservados copyright 2023</p>
 </footer>
