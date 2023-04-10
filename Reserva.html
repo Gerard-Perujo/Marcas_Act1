@@ -2,21 +2,27 @@
 <html>
 <head>
     <meta charset=" UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Formulario_Reserva_Hotel</title>
-    <h1> Hotel Cala Trebalúger</h1>
+    <link rel="stylesheet" href="css\fondo.css">
+    <h1> Hotel Cala Trebalúger</h1>   
 </head>
 <nav>
     <table border="1">
             <td>
                 <label for="Menu"> Menu </label>
                 <select name="Menu">
-                    <option href="home.html" value="Home">home</option>
+                    <a href="home.html" target="home">
+                        <option src="home">Home</option>
+                        
+                    </a>
                     <option value="Act"> Actividades</option>
                     <option value="Contact"> Sobre nosotros</option>
                     <option value="Form"> Reserva</option>
                 </select>
             </td>
-            <td coldspan="3">Publicaciones</td>
+            <td>Publicaciones</td>
             <td>Noticias</td>
             <td>Localización</td>
     </table>  
@@ -144,6 +150,7 @@
         <input type="reset" name="Reset" value="resetear formulario"/>
         <input type="button" name="Cancelar" value="Cancelar"/>
     </form>
+    <p class="body"></p>
 </main>
 <aside>
     <a href="https://amigosboattrips.com/es">
