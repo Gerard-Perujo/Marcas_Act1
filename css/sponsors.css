@@ -1,0 +1,31 @@
+
+.boattrip a{
+    position: absolute;
+    top: 180px;
+    left: 1010px;
+}
+
+.cavallo{
+    position: absolute;
+    top: 370px;
+    left: 1000px;
+}
+
+.guia{
+    position: absolute;
+    top: 500px;
+    left: 1030px;
+}
+
+.bici{
+    position: absolute;
+    top: 690px;
+    left: 1020px;
+}
+
+.buceo{
+    position: absolute;
+    top: 800px;
+    left: 980px;
+}
+

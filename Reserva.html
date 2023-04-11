@@ -7,13 +7,14 @@
     <title> Formulario_Reserva_Hotel</title>
     <link rel="stylesheet" href="css\cabezera.css">
     <link rel="stylesheet" href="css\menu.css">
-    <link rel="stylesheet" href="css\pagina.css"
+    <link rel="stylesheet" href="css\Reserva.css">
+    <link rel="stylesheet" href="css\sponsors.css">
 </head>
-<body>
+<header>
    <div class="cabezera">
      <h1 style="text-align: center;">Hotel Cala Trebalúger</h1>
    </div> 
-</body>
+</header>
 <nav class="menu">
     <li>Menu
         <ul class="desplegable">
@@ -27,11 +28,12 @@
     <li>Noticias</li>
     <li>Publicaciones</li>
 </nav>
+</br>
 <main>
     <form action="procesarPeticion.jsp" method="post">
         <h3>Datos de la Reserva del Hotel</h3>
         </br>
-        <fieldset>
+        <fieldset class="datospersonales">
             <legend>Datos Personales</legend>
             <label for="nombre">Nombre: </label>
             <input id="nombre" type="text" name="nombre" autofocus required/>
@@ -70,7 +72,7 @@
         
        </br>
 
-        <fieldset>
+        <fieldset class="datosreserva">
             <legend>Datos de la Reserva</legend>
             <label for="llegada" >Llegada: </label>
             <input for="llegada" type="date" name="llegada" required/>
@@ -118,7 +120,7 @@
 
         </br>
 
-        <fieldset>
+        <fieldset class="actividades">
             <legend>Actividades</legend>
             <input type="checkbox" name="Actividades" value="ex"/>Excursiones
             <input type="checkbox" name="Actividades" value="BTT"/>BTT Electrica
@@ -133,7 +135,7 @@
 
          </br>
 
-         <fieldset>
+         <fieldset class="extras">
             <legend>Extras</legend>
             <input type="checkbox" name="Extras" value="coche"/>Coche de Alquiler
             <input type="checkbox" name="Extras" value="moto"/>Moto de Alquiler
@@ -143,37 +145,53 @@
 
         </br>
 
-         <label for="terminos">Leer y Aceptar los terminos de uso</label>
+         <label class="terminos" for="terminos">Leer y Aceptar los terminos de uso</label>
          <input type="checkbox" name="terminos" value="y"/>
 
         </br>
         </br>
-        <input type="submit" name="Enviar" value="Enviar"/>
-        <input type="reset" name="Reset" value="resetear formulario"/>
-        <input type="button" name="Cancelar" value="Cancelar"/>
+        <input class="terminos" type="submit" name="Enviar" value="Enviar"/>
+        <input class="terminos"type="reset" name="Reset" value="Resetear formulario"/>
+        <input class="terminos" type="button" name="Cancelar" value="Cancelar"/>
     </form>
     <p class="body"></p>
-</main>
-<aside>
-    <a href="https://amigosboattrips.com/es">
-        <img src="img\boattrips.jpg">
-    </a>
-    <a href="https://www.menorcaacavall.com/es/inicio">
-        <img src="img\rutas cavallo.jpg">
-    </a>
-    <a href="https://guiasmenorca.com/es/inicio/">
-        <img src="img\guias turisticos.jpg">
-    </a>
-    <a href="http://menorcacyclingtours.com/">
-        <img src="img\menorca btt.jpg">
-    </a>
-    <a href="https://bluedivemenorca.com/?gclid=CjwKCAjw586hBhBrEiwAQYEnHakGBnZWJqqix905BcLxzA-QArHCdt5jBqWweo0KILJdBFKRc8RsdRoCSrkQAvD_BwE">
-        <img src="img\submarinismo.jpg">
-    </a>
-</aside>
-<footer>
-    <p style="text-align:center;">Todos los derechos reservados copyright 2023</p>
-</footer>
+    </main>
+    <aside>
+        <div class="boattrip">
+        <a href="https://amigosboattrips.com/es">
+                <img src="img\boattrips.jpg">
+            </a>
+        </div>
+    
+        <div class="cavallo">
+            <a href="https://www.menorcaacavall.com/es/inicio">
+                <img src="img\rutas cavallo.jpg">
+            </a>
+    
+        </div>
+        
+        <div class="guia">
+            <a href="https://guiasmenorca.com/es/inicio/">
+                <img src="img\guias turisticos.jpg">
+            </a>
+    
+        </div>
+       
+        <div class="bici">
+            <a href="http://menorcacyclingtours.com/">
+                <img src="img\menorca btt.jpg">
+            </a>
+        </div>
+    
+        <div class="buceo">
+            <a href="https://bluedivemenorca.com/?gclid=CjwKCAjw586hBhBrEiwAQYEnHakGBnZWJqqix905BcLxzA-QArHCdt5jBqWweo0KILJdBFKRc8RsdRoCSrkQAvD_BwE">
+                <img src="img\submarinismo.jpg">
+            </a>
+        </div>
+    </aside>
+    <footer>
+        <p style="text-align:center;">Todos los derechos reservados copyright 2023</p>
+    </footer>
 
 
 

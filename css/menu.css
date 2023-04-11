@@ -7,7 +7,7 @@
 }
 .menu{
     background-size: auto;
-    background: crimson;
+    background-color: rgba(58, 48, 48, 0.61);
 }
 
 .menu>li{
@@ -28,18 +28,18 @@
 }
 
 .desplegable{
+    list-style: none;
     position: absolute;
-    background: crimson;
+    background-color: rgba(58, 48, 48, 0.658);
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.5s;
 }
 
-.desplegable li{
-    list-style: none;
+.desplegable li a{
+    color: bisque;
     display: block;
     padding: 15px;
-    color: bisque;
     text-decoration: none;
 }
 
