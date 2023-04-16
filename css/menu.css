@@ -19,11 +19,11 @@
 }
 
 .menu li:hover{
-    color:black;
+    background-color:red;
     transition: all .3s;
 }
 .menu li a:hover{
-    color:black;
+    background-color:red;
     transition: all .3s;
 }
 
