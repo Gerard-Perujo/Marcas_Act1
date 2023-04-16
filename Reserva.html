@@ -12,7 +12,7 @@
 </head>
 <header>
    <div class="cabezera">
-     <h1 style="text-align: center;">Hotel Cala Trebalúger</h1>
+     <h1>Hotel Cala Trebalúger</h1>
    </div> 
 </header>
 <nav class="menu">
@@ -30,123 +30,160 @@
 </nav>
 </br>
 <main>
-    <form action="procesarPeticion.jsp" method="post">
-        <h3>Datos de la Reserva del Hotel</h3>
-        </br>
-        <fieldset class="datospersonales">
-            <legend>Datos Personales</legend>
-            <label for="nombre">Nombre: </label>
-            <input id="nombre" type="text" name="nombre" autofocus required/>
-            <label for="1apellido">Primer Apellido: </label>
-            <input id="1apellido" type="text" name="1apellido" required/>
-            <label for="2apellido"> Segundo Apellido: </label>
-            <input for="2apellido" type="text" name="2apellido" required/>
-            </br>
-            </br>
-            <label for="DNI"> DNI: </label>
-            <input for="DNI" type="numer" name="DNI" required/>
-            <label for="telefono">Telefono: </label>
-            <input for="telefono" type="tel" name="telefono" required/>
-            <label for="email">Email: </label>
-            <input for="email" type="email" name="email" required/>
-            </br>
-            </br>
-            <label for="calle">Calle: </label>
-            <input for="calle" type="text" name="calle" required/>
-            <label for="numero">Numero: </label>
-            <input for="numero" type="numeber" name="numero" required/>
-            <label for="piso">Piso: </label>
-            <input for="piso" type="number" name="piso"/>
-            <label for="puerta">Puerta: </label>
-            <input for="puerta" type="number" name="puerta"/>
-            </br>
-            </br>
-            <label for="ciudad">Ciudad: </label>
-            <input for="ciudad" type="text" name="ciudad" required/>
-            <label for="CP">Codigo Postal: </label>
-            <input for="CP" type="number" name="CP" required/>
-            <label for="pais">Pais: </label>
-            <input for="pais" type="text" name="pais" required/>
-            </br>
-       </fieldset>
+    <form action="procesarPeticion.jsp" method="get">
+        <h2>Datos de la Reserva del Hotel</h2>
+        <fieldset class="cajas">
+            <legend><h3>Datos Personales</h3></legend>
+                <div class="personales">
+                    <label for="nombre">Nombre: 
+                    <input id="nombre" type="text" name="nombre" autofocus/></label>
+                    <label for="1apellido">Primer Apellido: 
+                    <input id="1apellido" type="text" name="1apellido" /></label>
+                    <label for="2apellido"> Segundo Apellido:
+                    <input for="2apellido" type="text" name="2apellido" /></label>
+                
+            
+                    <label for="DNI"> DNI: 
+                    <input for="DNI" type="numer" name="DNI" /></label>
+                    <label for="telefono">Telefono: 
+                    <input for="telefono" type="tel" name="telefono" /></label>
+                    <label for="email">Email: 
+                    <input for="email" type="email" name="email" /></label>
+                
+            
+                    <label for="calle">Calle: 
+                    <input for="calle" type="text" name="calle" /></label>
+                    <label for="numero">Numero: 
+                    <input for="numero" type="numeber" name="numero" /></label>
+                    <label for="piso">Piso: 
+                    <input for="piso" type="number" name="piso"/></label>
+                    <label for="puerta">Puerta: 
+                    <input for="puerta" type="number" name="puerta"/></label>
+                
+            
+                    <label for="ciudad">Ciudad: 
+                    <input for="ciudad" type="text" name="ciudad" /></label>
+                    <label for="CP">Codigo Postal: 
+                    <input for="CP" type="number" name="CP" /></label>
+                    <label for="pais">Pais: 
+                    <input for="pais" type="text" name="pais" /></label>
+    
+                </div>
+            </fieldset>
         
        </br>
 
-        <fieldset class="datosreserva">
-            <legend>Datos de la Reserva</legend>
-            <label for="llegada" >Llegada: </label>
-            <input for="llegada" type="date" name="llegada" required/>
-            <label for="salida">Salida: </label>
-            <input for="salida" type="date" name="salida" required/>
-            <label for="personas">Personas: </label>
-            <select for="personas" type="number" name="personas" required>
-                <option value="0"></option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="4">4</option>
-            </select>
-            </br>
-            </br>
-            <label for="cama">Tipo de Cama:</label>
-            <select for="cama" type="text" name="cama" required>
-                <option value="0"></option>
-                <option value="Individual">Individual</option>
-                <option value="Doble">Doble</option>
-                <option value="King">King Size</option>
-            </select>
-            <label for="habitación">Tipo Habitación</label>
-            <select for="habitacion" type="text" name="habitacion" required>
-                <option value="0"></option>
-                <option value="Standart">Standart</option>
-                <option value="Supreme">Supreme</option>
-                <option value="Deluxe">Deluxe</option>
-            </select>
-            </br>
-            </br>
-            <label for="regimen">Regimen</label>
-            <select for="regimen" type="text" name="regimen" required>
-                <option value="0"></option>
-                <option value="Media">Media Pension</option>
-                <option value="completa">Pension Completa</option>
-                <option value="VIP">Todo Incluido</option>
-            </select>
-            <p>El Horario del Check-In es de 15.00 a 22.00 en caso de llegada tardia marcar el recuadro</p>
-            <input type="checkbox" name="horario" value="y"/> LLegada tardia
-            <label for="hora">Hora de Llegada</label>
-            <input for="hora" type="time" name="hora"/></br>
-            <label for="comentario">Comentario</label></br>
-            <textarea style="resize:none;" rows="5" cols="80" name="comentario"></textarea>
+        <fieldset class="cajas">
+            <legend><h3>Datos de la Reserva</h3></legend>
+            <div class="reser">
+                <label for="llegada" >Llegada: 
+                <input for="llegada" type="date" name="llegada" /></label>
+                <label for="salida">Salida: 
+                <input for="salida" type="date" name="salida" /></label>
+                <label for="personas">Personas: 
+                <select for="personas" type="number" name="personas" >
+                    <option value="0"></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                </select></label>
+            
+               
+                <label for="cama">Tipo de Cama:
+                <select for="cama" type="text" name="cama" >
+                    <option value="0"></option>
+                    <option value="Individual">Individual</option>
+                    <option value="Doble">Doble</option>
+                    <option value="King">King Size</option>
+                </select></label>
+                <label for="habitación">Tipo Habitación
+                <select for="habitacion" type="text" name="habitacion" >
+                    <option value="0"></option>
+                    <option value="Standart">Standart</option>
+                    <option value="Supreme">Supreme</option>
+                    <option value="Deluxe">Deluxe</option>
+                </select></label>
+            
+            
+                <label for="regimen">Regimen
+                <select for="regimen" type="text" name="regimen" >
+                    <option value="0"></option>
+                    <option value="Media">Media Pension</option>
+                    <option value="completa">Pension Completa</option>
+                    <option value="VIP">Todo Incluido</option>
+                </select></label>
+                </br>
+                </br>
+                <p>El Horario del Check-In es de 15.00 a 22.00 en caso de llegada tardia marcar el recuadro</p>
+                </br>
+                <label>
+                <input type="checkbox" name="horario" value="y"/> LLegada tardia</label>
+                <label for="hora">Hora de Llegada
+                <input for="hora" type="time" name="hora"/></label>
+            </div>
+            
         </fieldset>
 
         </br>
 
-        <fieldset class="actividades">
-            <legend>Actividades</legend>
-            <input type="checkbox" name="Actividades" value="ex"/>Excursiones
-            <input type="checkbox" name="Actividades" value="BTT"/>BTT Electrica
-            <input type="checkbox" name="Actividades" value="cavallo"/>Excursiones a cavallo</br>
-            <input type="checkbox" name="Actividades" value="spa"/>SPA
-            <input type="checkbox" name="Actividades" value="masaje"/>Masajes
-            <input type="checkbox" name="Actividades" value="manos"/>Manicura</br>
-            <input type="checkbox" name="Actividades" value="turistico"/>Salidas Turisticas
-            <input type="checkbox" name="Actividades" value="barco"/>Recorrido en Barco
-            <input type="checkbox" name="Actividades" value="Sub"/>Submarinismo
+        <fieldset class="cajas">
+            <legend><h3>Actividades</h1></legend>
+                <ul class="acti">
+                    <li value="ex">Excursiones
+                        <input type="checkbox" name="Actividades" value="ex"/>
+                    </li>
+                    <li value="BTT">BTT Electrica
+                        <input type="checkbox" name="Actividades" value="BTT"/>
+                    </li>
+                    <li value="cavallo">Excursiones a cavallo
+                        <input type="checkbox" name="Actividades" value="cavallo"/>
+                    </li>
+                    <li value="spa">SPA
+                        <input type="checkbox" name="Actividades" value="spa"/>
+                    </li>
+                    <li value="masaje">Masajes
+                        <input type="checkbox" name="Actividades" value="masaje"/>
+                    </li>
+                    <li value="manos">Manicura
+                        <input type="checkbox" name="Actividades" value="manos"/>
+                    </li>
+                    <li value="turistico">Salidas Turisticas
+                        <input type="checkbox" name="Actividades" value="turistico"/>
+                    </li>
+                    <li value="barco">Recorrido en Barco
+                        <input type="checkbox" name="Actividades" value="barco"/>
+                    </li>
+                    <li value="sub">Submarinismo
+                        <input type="checkbox" name="Actividades" value="Sub"/>
+                    </li>
+                </ul>
+           
         </fieldset>
 
          </br>
 
-         <fieldset class="extras">
-            <legend>Extras</legend>
-            <input type="checkbox" name="Extras" value="coche"/>Coche de Alquiler
-            <input type="checkbox" name="Extras" value="moto"/>Moto de Alquiler
-            <input type="checkbox" name="Extras" value="transporte"/>Recogida en Aeropuerto
-            <input type="checkbox" name="Extras" value="guarderia"/>Servicio de Guarderia
+         <fieldset class="cajas">
+            <legend><h3>Extras</h3></legend>
+                <ul class="extras">
+                    <li value="coche">Coche de Alquiler
+                        <input type="checkbox" name="Extras" value="coche"/> 
+                    </li>
+                    <li value="moto">Moto de Alquiler
+                        <input type="checkbox" name="Extras" value="moto"/>
+                    </li>
+                    <li value="transporte">Recogida en Aeropuerto
+                        <input type="checkbox" name="Extras" value="transporte"/>
+                    </li>
+                    <li value="guarderia">Servicio de Guarderia
+                        <input type="checkbox" name="Extras" value="guarderia"/>
+                    </li>
+                </ul>
          </fieldset>
 
         </br>
 
-         <label class="terminos" for="terminos">Leer y Aceptar los terminos de uso</label>
-         <input type="checkbox" name="terminos" value="y"/>
+         <label class="leer" for="terminos"> Leer y Aceptar los terminos de uso
+         <input type="checkbox" name="terminos" value="y"/></label>
 
         </br>
         </br>
@@ -154,7 +191,6 @@
         <input class="terminos"type="reset" name="Reset" value="Resetear formulario"/>
         <input class="terminos" type="button" name="Cancelar" value="Cancelar"/>
     </form>
-    <p class="body"></p>
     </main>
     <aside>
         <div class="boattrip">
@@ -189,8 +225,10 @@
             </a>
         </div>
     </aside>
-    <footer>
-        <p style="text-align:center;">Todos los derechos reservados copyright 2023</p>
+    </br>
+    </br>
+    <footer class="footer">
+        <p>Todos los derechos reservados copyright 2023</p>
     </footer>
 
 

@@ -7,7 +7,7 @@
 }
 .menu{
     background-size: auto;
-    background-color: rgba(58, 48, 48, 0.61);
+    background-color: rgba(78, 69, 69, 0.61);
 }
 
 .menu>li{
@@ -19,11 +19,11 @@
 }
 
 .menu li:hover{
-    color:darkgreen;
+    color:black;
     transition: all .3s;
 }
 .menu li a:hover{
-    color:darkgreen;
+    color:black;
     transition: all .3s;
 }
 
