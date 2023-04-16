@@ -1,52 +1,63 @@
 body{
-    background-color: rgb(168, 149, 149);
+    background-color: rgba(128, 128, 128, 0.644);
 }
 
-.datospersonales{
+.cajas{
     background-color: rgb(194, 172, 46);
-    margin: 20px;
-    display: block;
-    padding: 20px;
     border-color: rgb(12, 0, 0);
-    border-style: groove;
-    width: 900px;
+    border-width: 3px;
+    font-family: Times;
+    padding: 10px;
+    width: 68%;
+    margin:50px;
 }
 
-.datosreserva{
-    background-color: rgb(194, 172, 46);
-    margin: 20px;
-    display: block;
-    padding: 20px;
-    border-color: rgb(12, 0, 0);
-    border-style: groove;
-    width: 900px;
+ .personales label{
+    display: inline;
+    list-style: none;
+    font-size: none;
+    margin: 1.5px 75px;
+
 }
 
-.actividades{
-    background-color: rgb(194, 172, 46);
-    margin: 20px;
-    display: block;
-    padding: 20px;
-    border-color: rgb(12, 0, 0);
-    border-style: groove;
-    width: 900px;
+.cajas .reser label, p{
+    display: inline-block;
+    list-style: none;
+    font-size: none;
+    margin: 1.5px 40px;
 }
 
-.extras{
-    background-color: rgb(194, 172, 46);
-    margin: 20px;
-    display: block;
-    padding: 20px;
-    border-color: rgb(12, 0, 0);
-    border-style: groove;
-    width: 900px;
+.cajas .acti li{
+    display: inline-block;
+    list-style: none;
+    font-size: none;
+    margin: 1.5px 30px;
+}
+
+
+.cajas .extras li{
+    display: inline-block;
+    list-style: none;
+    font-size: none;
+    margin: 1.5px 20px;
 }
 
 
 
 .terminos{
-    margin: 20px;
-    background-color: rgba(58, 48, 48, 0.61);
+    background-color: rgb(109, 106, 106);
     color: bisque;
-    border-width: 7px;
+    border-width: 1.5px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.leer{
+    margin-left: 50px;
+}
+
+.footer{
+  margin: 50px;
+  text-align: center;
+
 }
