@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(128, 128, 128, 0.644);
+    background-color: rgba(175, 172, 172, 0.671);
 }
 
 .cajas{
@@ -44,7 +44,8 @@ body{
 
 
 
-.terminos{
+.terminos input{
+    box-shadow: 15px 15px 15px rgb(59, 53, 53);
     background-color: rgb(109, 106, 106);
     color: bisque;
     border-width: 1.5px;
@@ -52,8 +53,29 @@ body{
     margin-left: 50px;
 }
 
+.terminos input:hover{
+    background-color:red;
+    transition: all .3s;
+}
+
 .leer{
     margin-left: 50px;
+}
+
+.habitaciones img{
+    position:static;
+   height: 80px;
+   margin: 30px;
+   
+}
+
+.habitaciones img:hover{
+    height: 700px;
+    float: right;
+    position: absolute;
+    top:200%;
+    left:5%;
+
 }
 
 .footer{
