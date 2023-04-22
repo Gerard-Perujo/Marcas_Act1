@@ -2,43 +2,52 @@ body{
     background-color: rgba(175, 172, 172, 0.671);
 }
 
+main{
+    float: left;
+    width: 70%;
+}
+
+
+aside{
+    float: right;
+}
+
+footer{
+    float:left;
+}
+
 .cajas{
     background-color: rgb(194, 172, 46);
     border-color: rgb(12, 0, 0);
     border-width: 3px;
     font-family: Times;
     padding: 10px;
-    width: 68%;
     margin:50px;
 }
 
  .personales label{
-    display: inline;
+    display: inline-flex;
     list-style: none;
-    font-size: none;
     margin: 1.5px 75px;
 
 }
 
-.cajas .reser label, p{
+ .reser label, p{
     display: inline-block;
     list-style: none;
-    font-size: none;
     margin: 1.5px 40px;
 }
 
-.cajas .acti li{
+.acti li{
     display: inline-block;
     list-style: none;
-    font-size: none;
     margin: 1.5px 30px;
 }
 
 
-.cajas .extras li{
+.extras li{
     display: inline-block;
     list-style: none;
-    font-size: none;
     margin: 1.5px 20px;
 }
 
@@ -82,4 +91,115 @@ body{
   margin: 50px;
   text-align: center;
 
+}
+
+
+@media (max-width:1200px){
+
+    main h2{
+        font-size: 90%;
+    }
+    nav li{
+        margin-left: 10%;
+    }
+
+    .cajas{
+        padding: 0;
+        margin: 0;
+        width: 70%;
+    }
+
+    .cajas h3{
+        font-size: 80%;
+    }
+    .personales label{
+        margin: 0;
+        display: inline-flex;
+    }
+
+    .reser label{
+        margin:0;
+    }
+
+    .acti li{
+        margin:0;
+        display: inline-flex;
+    }
+
+    aside{
+        float:left;
+    }
+
+
+    aside{
+       width: 20%;
+       height: 20%;
+    }
+
+    aside img{
+        width: 160px;
+        height: 90%;
+        margin-top: 5%;
+    }
+
+    .habitaciones img{
+        width: 20%;
+        height: 10%;
+        margin:5%;
+    }
+}
+
+@media (max-width:500px){
+
+    main h2{
+        font-size: 90%;
+    }
+    nav li{
+        margin-left: 10%;
+    }
+
+    .cajas{
+        padding: 0;
+        margin: 0;
+        width: 70%;
+    }
+
+    .cajas h3{
+        font-size: 80%;
+    }
+    .personales label{
+        margin: 0;
+        display: inline-flex;
+    }
+
+    .reser label{
+        margin:0;
+    }
+
+    .acti li{
+        margin:0;
+        display: inline-flex;
+    }
+
+    aside{
+        float:left;
+    }
+
+
+    aside{
+       width: 20%;
+       height: 20%;
+    }
+
+    aside img{
+        width: 130%;
+        height: 60%;
+        margin-top: 200%;
+    }
+
+    .habitaciones img{
+        width: 30%;
+        height: 10%;
+        margin:10%;
+    }
 }

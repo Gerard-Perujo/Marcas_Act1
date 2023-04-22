@@ -7,9 +7,27 @@ header{
     color: rgb(214, 89, 89);
     text-align:justify;
     font-size: 30px;
-    
-    
+}
 
-    
+@media (max-width: 1200px){
+
+    header{
+        background-size: cover;
+        height: 300px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 500px){
+
+    header{
+        background-size: cover;
+        height: 200px;
+        font-size: 15px;
+        text-align: center;
+    }
+
 }
     
