@@ -78,15 +78,6 @@ footer{
    
 }
 
-.habitaciones img:hover{
-    height: 700px;
-    float: right;
-    position: absolute;
-    top:200%;
-    left:5%;
-
-}
-
 .footer{
   margin: 50px;
   text-align: center;
@@ -153,7 +144,7 @@ footer{
 
     main{
         float: none;
-        width: 140%;
+        width: auto;
         padding: 2%;
     }
 
@@ -163,9 +154,11 @@ footer{
     }
     nav li{
         margin-left: 10%;
+        font-size: 12px;
     }
 
     .cajas{
+        width: auto;
         padding: 0;
         margin: 0;
     }
@@ -188,15 +181,14 @@ footer{
         display: inline-flex;
     }
 
-    aside{
-      height: auto;
-    }
-
     .habitaciones img{
-        height: auto;
+        height: 90px;
+        width: 110px;
+        
     }
 
-    .habitaciones img:hover{
-        height: auto;
+
+    .terminos input{
+        margin: 3%;
     }
 }

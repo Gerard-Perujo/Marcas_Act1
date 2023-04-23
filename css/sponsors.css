@@ -24,30 +24,31 @@
 @media (max-width:700px){
 
     .cavallo{
-        position: absolute;
-        left:50%;
-        top:179%;
+        position: relative;
+        left:260%;
+        margin-top: -150%;
     }
     .boattrip{
         position: relative;
-        left:50%;
+        left:10%;
         margin-top: 60%;
     }
 
     .bici{
-        position: absolute;
-        left:40%;
-        top:215%;
+        position: relative;
+        left:260%;
+        margin-top: -150%;
+      
     }
 
     .guia{
-        position: relative;
-        left: 45%;
-        margin-top: 60%;
+        position: static;
+        left: 5%;
+        margin-top: 60px;
     }
     .buceo{
         position: relative;
-        left: 200%;
+        left: 140%;
         margin-top: 70%;
     }
 }
