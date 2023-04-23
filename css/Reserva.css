@@ -9,11 +9,20 @@ main{
 
 
 aside{
-    float: right;
+    float: left;
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+aside img{
+    margin-top: 15%;
+    width: 65%;
+    height: 60%;
 }
 
 footer{
-    float:left;
+    clear:both;
 }
 
 .cajas{
@@ -22,7 +31,7 @@ footer{
     border-width: 3px;
     font-family: Times;
     padding: 10px;
-    margin:50px;
+    margin:10px;
 }
 
  .personales label{
@@ -88,20 +97,20 @@ footer{
 @media (max-width:1200px){
 
     main h2{
-        font-size: 90%;
+        font-size: 130%;
     }
     nav li{
         margin-left: 10%;
     }
 
     .cajas{
-        padding: 0;
-        margin: 0;
-        width: 70%;
+        padding: 1.5%;
+        margin: 10px;
+        width: 90%;
     }
 
     .cajas h3{
-        font-size: 80%;
+        font-size: 120%;
     }
     .personales label{
         margin: 0;
@@ -119,18 +128,15 @@ footer{
 
     aside{
         float:left;
-    }
-
-
-    aside{
        width: 20%;
        height: 20%;
     }
 
     aside img{
         width: 160px;
-        height: 90%;
-        margin-top: 5%;
+        height: 100%;
+        margin-top: 15%;
+        margin-left: 2%;
     }
 
     .habitaciones img{
@@ -147,7 +153,17 @@ footer{
         width: auto;
         padding: 2%;
     }
+    aside{
+        float:left;
+        width: auto;
+        height: 30%;
+    }
 
+    aside .sponsor img{
+        width: 30%;
+        margin-top: 4%;
+        display: inline;
+    }
 
     main h2{
         font-size: 120%;
