@@ -30,43 +30,43 @@
 </nav>
 </br>
 <main>
-    <form action="procesarPeticion.jsp" method="get">
+    <form action="procesarPeticion.jsp" method="post">
         <h2>Datos de la Reserva del Hotel</h2>
         <fieldset class="cajas">
             <legend><h3>Datos Personales</h3></legend>
                 <div class="personales">
                     <label for="nombre">Nombre: 
-                    <input id="nombre" type="text" name="nombre" autofocus/></label>
+                    <input id="nombre" type="text" name="nombre" autofocus required/></label>
                     <label for="1apellido">Primer Apellido: 
-                    <input id="1apellido" type="text" name="1apellido" /></label>
+                    <input id="1apellido" type="text" name="1apellido" required/></label>
                     <label for="2apellido"> Segundo Apellido:
-                    <input for="2apellido" type="text" name="2apellido" /></label>
+                    <input id="2apellido" type="text" name="2apellido" required/></label>
                 
             
                     <label for="DNI"> DNI: 
-                    <input for="DNI" type="numer" name="DNI" /></label>
+                    <input id="DNI" type="numer" name="DNI" required/></label>
                     <label for="telefono">Telefono: 
-                    <input for="telefono" type="tel" name="telefono" /></label>
+                    <input id="telefono" type="tel" name="telefono" required/></label>
                     <label for="email">Email: 
-                    <input for="email" type="email" name="email" /></label>
+                    <input id="email" type="email" name="email" required/></label>
                 
             
                     <label for="calle">Calle: 
-                    <input for="calle" type="text" name="calle" /></label>
+                    <input id="calle" type="text" name="calle" required/></label>
                     <label for="numero">Numero: 
-                    <input for="numero" type="numeber" name="numero" /></label>
+                    <input id="numero" type="numeber" name="numero" required/></label>
                     <label for="piso">Piso: 
-                    <input for="piso" type="number" name="piso"/></label>
+                    <input id="piso" type="number" name="piso"required/></label>
                     <label for="puerta">Puerta: 
-                    <input for="puerta" type="number" name="puerta"/></label>
+                    <input id="puerta" type="number" name="puerta"required/></label>
                 
             
                     <label for="ciudad">Ciudad: 
-                    <input for="ciudad" type="text" name="ciudad" /></label>
+                    <input id="ciudad" type="text" name="ciudad" required/></label>
                     <label for="CP">Codigo Postal: 
-                    <input for="CP" type="number" name="CP" /></label>
+                    <input id="CP" type="number" name="CP" required/></label>
                     <label for="pais">Pais: 
-                    <input for="pais" type="text" name="pais" /></label>
+                    <input id="pais" type="text" name="pais" required/></label>
     
                 </div>
             </fieldset>
@@ -77,11 +77,11 @@
             <legend><h3>Datos de la Reserva</h3></legend>
             <div class="reser">
                 <label for="llegada" >Llegada: 
-                <input for="llegada" type="date" name="llegada" /></label>
+                <input id="llegada" type="date" name="llegada" required/></label>
                 <label for="salida">Salida: 
-                <input for="salida" type="date" name="salida" /></label>
+                <input id="salida" type="date" name="salida" required/></label>
                 <label for="personas">Personas: 
-                <select for="personas" type="number" name="personas" >
+                <select id="personas" >
                     <option value="0"></option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -90,14 +90,14 @@
             
                
                 <label for="cama">Tipo de Cama:
-                <select for="cama" type="text" name="cama" >
+                <select id="cama">
                     <option value="0"></option>
                     <option value="Individual">Individual</option>
                     <option value="Doble">Doble</option>
                     <option value="King">King Size</option>
                 </select></label>
                 <label for="habitación">Tipo Habitación
-                <select for="habitacion" type="text" name="habitacion" >
+                <select id="habitacion">
                     <option value="0"></option>
                     <option value="Standart">Standart</option>
                     <option value="Supreme">Supreme</option>
@@ -106,7 +106,7 @@
             
             
                 <label for="regimen">Regimen
-                <select for="regimen" type="text" name="regimen" >
+                <select id="regimen" >
                     <option value="0"></option>
                     <option value="Media">Media Pension</option>
                     <option value="completa">Pension Completa</option>
@@ -119,7 +119,7 @@
                 <label>
                 <input type="checkbox" name="horario" value="y"/> LLegada tardia</label>
                 <label for="hora">Hora de Llegada
-                <input for="hora" type="time" name="hora"/></label>
+                <input id="hora" type="time" name="hora"/></label>
             </div>
             
         </fieldset>
@@ -129,31 +129,31 @@
         <fieldset class="cajas">
             <legend><h3>Actividades</h1></legend>
                 <ul class="acti">
-                    <li value="ex">Excursiones
+                    <li for="Actividades">Excursiones
                         <input type="checkbox" name="Actividades" value="ex"/>
                     </li>
-                    <li value="BTT">BTT Electrica
+                    <li for="Actividades">BTT Electrica
                         <input type="checkbox" name="Actividades" value="BTT"/>
                     </li>
-                    <li value="cavallo">Excursiones a cavallo
+                    <li for="Actividades">Excursiones a cavallo
                         <input type="checkbox" name="Actividades" value="cavallo"/>
                     </li>
-                    <li value="spa">SPA
+                    <li for="Actividades">SPA
                         <input type="checkbox" name="Actividades" value="spa"/>
                     </li>
-                    <li value="masaje">Masajes
+                    <li for="Actividades">Masajes
                         <input type="checkbox" name="Actividades" value="masaje"/>
                     </li>
-                    <li value="manos">Manicura
+                    <li for="Actividades">Manicura
                         <input type="checkbox" name="Actividades" value="manos"/>
                     </li>
-                    <li value="turistico">Salidas Turisticas
+                    <li for="Actividades">Salidas Turisticas
                         <input type="checkbox" name="Actividades" value="turistico"/>
                     </li>
-                    <li value="barco">Recorrido en Barco
+                    <li for="Actividades">Recorrido en Barco
                         <input type="checkbox" name="Actividades" value="barco"/>
                     </li>
-                    <li value="sub">Submarinismo
+                    <li for="Actividades">Submarinismo
                         <input type="checkbox" name="Actividades" value="Sub"/>
                     </li>
                 </ul>
@@ -165,16 +165,16 @@
          <fieldset class="cajas">
             <legend><h3>Extras</h3></legend>
                 <ul class="extras">
-                    <li value="coche">Coche de Alquiler
+                    <li for="Extras">Coche de Alquiler
                         <input type="checkbox" name="Extras" value="coche"/> 
                     </li>
-                    <li value="moto">Moto de Alquiler
+                    <li for="Extras">Moto de Alquiler
                         <input type="checkbox" name="Extras" value="moto"/>
                     </li>
-                    <li value="transporte">Recogida en Aeropuerto
+                    <li for="Extras">Recogida en Aeropuerto
                         <input type="checkbox" name="Extras" value="transporte"/>
                     </li>
-                    <li value="guarderia">Servicio de Guarderia
+                    <li for="Extras">Servicio de Guarderia
                         <input type="checkbox" name="Extras" value="guarderia"/>
                     </li>
                 </ul>
