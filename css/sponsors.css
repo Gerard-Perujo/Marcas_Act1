@@ -1,54 +1,6 @@
-.cavallo{
-    margin-top: 20%;
-    margin-left: 9%;
-}
 
-.guia{
-    margin-top: 20%;
-    margin-left: 20%;
-}
 
-.bici{
-    margin-top: 20%;
-    margin-left: 20%;
-}
 
-.buceo{
-    margin-top: 20%;
-}
 
-.boattrip{
-    margin-left: 11%;
-}
 
-@media (max-width:700px){
 
-    .cavallo{
-        position: relative;
-        left:260%;
-        margin-top: -150%;
-    }
-    .boattrip{
-        position: relative;
-        left:10%;
-        margin-top: 60%;
-    }
-
-    .bici{
-        position: relative;
-        left:260%;
-        margin-top: -150%;
-      
-    }
-
-    .guia{
-        position: static;
-        left: 5%;
-        margin-top: 60px;
-    }
-    .buceo{
-        position: relative;
-        left: 140%;
-        margin-top: 70%;
-    }
-}
