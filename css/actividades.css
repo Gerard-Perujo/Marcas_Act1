@@ -1,4 +1,93 @@
 body{
     background-image: url("../img/watercolour.jpg");
-    background-size: cover;
+    background-size: cover; 
+}
+
+main{
+    float: left;
+    width: 70%;
+}
+
+
+aside{
+    float: right;
+}
+
+
+footer{
+    float:left;
+}
+
+
+.hotel{
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(245, 188, 0); 
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    margin-right: 20%;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+    font-weight:500;
+    line-height: 0.68cm;
+    width: 70%;
+    /*background-color: azure;*/
+    margin-left: 4%;
+}
+
+img{
+    width: 70%;
+    margin-left: 4%;
+}
+
+table{
+    text-align: center;
+    font-size: 18px;
+    font-weight:500;
+    line-height: 0.68cm;
+    width: 40%;
+    background-color: white;
+    border-color: black;
+    /*margin-left: 4%;*/
+    margin-left: 19%;
+}
+
+caption{
+    font-size: 25px;
+    background-color: orange;
+    font-style: italic;
+}
+
+td{
+    font-family: sans-serif;
+}
+
+th{
+    font-family: sans-serif;
+}
+
+.noin{
+    text-align: left;
+    margin-left: 19%;
+}
+
+button{
+    background-color: gold;
+    font-size: 22px;
+    font-style: italic;
+    font-weight:600;
+    margin-left: 35.7%;
+    
+}
+
+.final{
+    text-decoration: underline;
 }

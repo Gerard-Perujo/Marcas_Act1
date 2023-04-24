@@ -2,3 +2,19 @@ body{
     background-image: url("../img/watercolour.jpg");
     background-size: cover;
 }
+
+/*main{
+    float: left;
+    width: 70%;
+}
+*/
+
+aside{
+    float: right;
+}
+
+/*
+footer{
+    float:left;
+}
+*/
