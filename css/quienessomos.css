@@ -1,4 +1,58 @@
 body{
     background-image: url("../img/watercolour.jpg");
-    background-size: cover;
+    background-size: cover; 
+}
+
+main{
+    float: left;
+    width: 70%;
+}
+
+
+aside{
+    float: right;
+}
+
+
+footer{
+    float:left;
+}
+
+
+.hotel{
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(245, 188, 0); 
+    font-size: 40px;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    margin-right: 20%;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+    font-weight:500;
+    line-height: 0.68cm;
+    width: 70%;
+    margin-left: 4%;
+}
+
+img{
+    width: 70%;
+    margin-left: 4%;
+}
+
+ol{
+    list-style-type:square;
+    margin-left: 13%;
+    font-size: 18px;
+}
+
+.pago{
+    text-align: left;
 }
