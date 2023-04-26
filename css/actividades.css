@@ -92,3 +92,11 @@ button{
 .final{
     text-decoration: underline;
 }
+
+.footer{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 20%;
+    width: auto;
+    list-style-type: none;
+}
