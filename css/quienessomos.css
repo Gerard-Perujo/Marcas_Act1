@@ -11,6 +11,7 @@ main{
 
 aside{
     float: right;
+    text-align: center;
 }
 
 
@@ -63,4 +64,8 @@ ol{
     margin-left: 20%;
     width: auto;
     list-style-type: none;
+}
+
+h3{
+    text-align: center;
 }
