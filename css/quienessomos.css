@@ -12,6 +12,7 @@ main{
 aside{
     float: right;
     text-align: center;
+    border-top: 50px;
 }
 
 
