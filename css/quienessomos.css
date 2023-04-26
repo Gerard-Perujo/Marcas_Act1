@@ -56,3 +56,11 @@ ol{
 .pago{
     text-align: left;
 }
+
+.footer{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 20%;
+    width: auto;
+    list-style-type: none;
+}
