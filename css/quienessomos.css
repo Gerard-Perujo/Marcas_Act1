@@ -12,7 +12,8 @@ main{
 aside{
     float: right;
     text-align: center;
-    border-top: 50px;
+    margin-top:4cm;
+    z-index: 1;
 }
 
 
@@ -26,6 +27,7 @@ footer{
     font-style: italic;
     background-color: rgb(245, 188, 0); 
     font-size: 40px;
+    z-index: 2;
 }
 
 h2{
@@ -68,9 +70,7 @@ ol{
 }
 
 h3{
-    text-align: center;
     font-style: italic;
-    margin-right: 20%;
 }
 
 .izda{
