@@ -1,3 +1,4 @@
+/* CSS normal */
 body{
     background-image: url("../img/watercolour.jpg");
     background-size: cover; 
@@ -85,4 +86,10 @@ h3{
 
 .publi{
     margin-left: 20%;
+}
+
+/* Diseño responsivo */
+
+@media screen {
+    min-width: ;
 }
