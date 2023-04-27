@@ -12,6 +12,9 @@ main{
 aside{
     float: right;
     text-align: center;
+    margin-left: 76%;
+    position: absolute;
+    margin-top: 3cm;
 }
 
 
@@ -25,6 +28,7 @@ footer{
     font-style: italic;
     background-color: rgb(245, 188, 0); 
     font-size: 40px;
+    
 }
 
 h2{
@@ -108,4 +112,8 @@ h3{
 
 .piefoto{
     font-size: 15px;
+}
+
+.publi{
+    margin-left: 20%;
 }

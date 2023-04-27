@@ -12,8 +12,9 @@ main{
 aside{
     float: right;
     text-align: center;
-    margin-top:4cm;
-    z-index: 1;
+    margin-left: 76%;
+    position: absolute;
+    margin-top: 3cm;
 }
 
 
@@ -27,7 +28,6 @@ footer{
     font-style: italic;
     background-color: rgb(245, 188, 0); 
     font-size: 40px;
-    z-index: 2;
 }
 
 h2{
@@ -71,6 +71,8 @@ ol{
 
 h3{
     font-style: italic;
+    text-align: center;
+    margin-right: 20%;
 }
 
 .izda{
@@ -79,4 +81,8 @@ h3{
 
 .piefoto{
     font-size: 15px;
+}
+
+.publi{
+    margin-left: 20%;
 }
