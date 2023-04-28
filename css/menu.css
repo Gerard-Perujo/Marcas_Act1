@@ -57,24 +57,24 @@ nav{
 @media (max-width: 1200px){
     
     nav{
-        font-size: 90%;
+        font-size: 125%;
     }
 
 
     .menu>li{
-        margin-left: 12%;
+        margin-left: 13%;
     }
 }
 
 @media (max-width: 500px){
     
     nav{
-        font-size: 90%;
+        font-size: 100%;
     }
 
 
     .menu>li{
-        margin-left: 6%;
+        margin-left: 12%;
     }
 }
 
