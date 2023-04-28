@@ -10,11 +10,7 @@
     <link rel="stylesheet" href="css\Reserva.css">
     <link rel="stylesheet" href="css\sponsors.css">
 </head>
-<header>
-   <div class="cabezera">
-     <h1>Hotel Cala Trebalúger</h1>
-   </div> 
-</header>
+<header></header>
 <nav class="menu">
     <li>Menu
         <ul class="desplegable">
@@ -31,15 +27,14 @@
 </br>
 <main>
     <form action="procesarPeticion.jsp" method="post">
-        <h2>Datos de la Reserva del Hotel</h2>
+        <h3>DATOS PERSONALES</h3>
         <fieldset class="cajas">
-            <legend><h3>Datos Personales</h3></legend>
                 <div class="personales">
-                    <label for="nombre">Nombre: 
+                    <label for="nombre">Nombre:
                     <input id="nombre" type="text" name="nombre" autofocus required/></label>
                     <label for="1apellido">Primer Apellido: 
                     <input id="1apellido" type="text" name="1apellido" required/></label>
-                    <label for="2apellido"> Segundo Apellido:
+                    <label for="2apellido">Segundo Apellido:
                     <input id="2apellido" type="text" name="2apellido" required/></label>
                 
             
@@ -72,9 +67,8 @@
             </fieldset>
         
        </br>
-
+        <h3>DATOS DE LA RESERVA</h3>
         <fieldset class="cajas">
-            <legend><h3>Datos de la Reserva</h3></legend>
             <div class="reser">
                 <label for="llegada" >Llegada: 
                 <input id="llegada" type="date" name="llegada" required/></label>
@@ -125,9 +119,8 @@
         </fieldset>
 
         </br>
-
+        <h3>ACTIVIDADES</h3>
         <fieldset class="cajas">
-            <legend><h3>Actividades</h1></legend>
                 <ul class="acti">
                     <li for="Actividades">Excursiones
                         <input type="checkbox" name="Actividades" value="ex"/>
@@ -161,9 +154,8 @@
         </fieldset>
 
          </br>
-
+         <h3>EXTRAS</h3>
          <fieldset class="cajas">
-            <legend><h3>Extras</h3></legend>
                 <ul class="extras">
                     <li for="Extras">Coche de Alquiler
                         <input type="checkbox" name="Extras" value="coche"/> 
@@ -181,9 +173,10 @@
          </fieldset>
 
         </br>
-
-         <label class="leer" for="terminos"> Leer y Aceptar los terminos de uso
-         <input type="checkbox" name="terminos" value="y"/></label>
+        <div class="leer">
+         <label for="terminos"> Leer y Aceptar los terminos de uso
+            <input type="checkbox" name="terminos" value="y"/></label>
+        </div>
 
         </br>
         </br>
@@ -195,7 +188,9 @@
         
     </form>
     </main>
+   
     <aside>
+        <h3>PUBLICIDAD</h3>
         <div class="sponsor">
             <a href="https://amigosboattrips.com/es" target="_blank">
                 <img src="img\boattrips.jpg">
@@ -216,7 +211,10 @@
     </aside>
     </br>
     </br>
+
     <footer class="footer">
+        <hr/>
+        <h3>HABITACIONES</h3>
         <div class="habitaciones">
             <img src="img\imagenhabitaciones1.jpg">
             <img src="img\imagenhabitaciones2.jpg">
@@ -225,11 +223,31 @@
             <img src="img\imagenhabitaciones5.jpg">
             <img src="img\imagenhabitaciones6.jpg">
         </div>
-        <p>Todos los derechos reservados copyright 2023</p>
+        <hr/>
+        <div class="final">
+            <div class="info1" > 
+
+                <H3>SERVICIO AL CLIENTE</H3>
+
+                <h5> <img class="icono" src="icono/telefono.png" alt="tel" >Contáctanos al 926-844-884</h5>
+                <h5> <img class="icono" src="icono/arroba.png" alt="tel" >Envía un correo a ayuda@trebaluguer.com</h5>
+
+            </div>
+
+            <div class="infomedio" > 
+                <h3>SÍGUENOS</h3>
+                <img class="logors" src="logos/instagram.png" alt="insta">
+                <img class="logors" src="logos/facebook.png" alt="faceb">
+                <img class="logors" src="logos/tiktok.png" alt="tiktok">
+                <img class="logors" src="logos/twitter.png" alt="tw">
+            
+            </div>
+       
+            <div class="info2">
+                <h3>Copyright 2023©</h3>
+                <h3>Para ver el aviso de privacidad, accede a trebaluguer.com/aviso</h3>
+            </div>
+        </div> 
     </footer>
-
-
-
-
 </html>
 

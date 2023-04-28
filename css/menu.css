@@ -5,8 +5,12 @@
     -moz-box-sizing: border-box;
    box-sizing: border-box;
 }
+nav{
+    font-size: 140%;
+}
 .menu{
-    background-size: auto;
+    /*background-size: auto;*/
+    height: 30px;
     background-color: rgba(78, 69, 69, 0.61);
 }
 
@@ -45,7 +49,6 @@
 
 .menu li:hover .desplegable{
     visibility: visible;
-    color:darkgreen;
     opacity: 1;
     
 }

@@ -1,5 +1,6 @@
 body{
-    background-color: rgba(175, 172, 172, 0.671);
+    background-image: url("../img/watercolour.jpg");
+    background-size: cover; 
 }
 
 main{
@@ -7,12 +8,17 @@ main{
     width: 70%;
 }
 
+h3{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:20px;
+}
 
 aside{
     float: left;
     width: 20%;
     margin-top: 2%;
-    margin-left: 5%;
+    text-align: center;
 }
 
 aside img{
@@ -26,7 +32,7 @@ footer{
 }
 
 .cajas{
-    background-color: rgb(194, 172, 46);
+    background-color: rgb(230, 199, 23);
     border-color: rgb(12, 0, 0);
     border-width: 3px;
     font-family: Times;
@@ -60,7 +66,9 @@ footer{
     margin: 1.5px 20px;
 }
 
-
+.terminos{
+    text-align: center;
+}
 
 .terminos input{
     box-shadow: 15px 15px 15px rgb(59, 53, 53);
@@ -77,7 +85,8 @@ footer{
 }
 
 .leer{
-    margin-left: 50px;
+    text-align: center;
+    width: auto;
 }
 
 .habitaciones img{
@@ -88,9 +97,41 @@ footer{
 }
 
 .footer{
-  margin: 50px;
   text-align: center;
+  padding: 80px;
 
+}
+.final{
+    display:flex;
+}
+.infomedio{
+    
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.info2{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+   
+}
+.info1{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.logors{
+    width: 60px;
+    height: 60px;
+    
+}
+
+.icono{
+    width: 30px;
+    height: 30px;
 }
 
 
@@ -199,12 +240,56 @@ footer{
     .habitaciones img{
         height: 80px;
         width: 80px;
+        margin:2px;
         
+    }
+
+    .footer{
+        padding: 2px;
     }
 
 
     .terminos input{
-        margin: 3%;
+        margin: 2%;
         font-size: 10px;
+        
+    }
+
+    .infomedio{
+    
+        width: auto;
+        height: 100%;
+        text-align: center;
+        cursor: pointer;
+    }
+    .info2{
+       
+        width: auto;
+        height: 100%;
+        text-align: center;
+    }
+    .info1{
+       
+        width: auto;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .logors{
+        width: 30px;
+        height: 30px;
+        
+    }
+    
+    .icono{
+        width: 20px;
+        height: 20px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+    .final{
+        display: inline;
     }
 }
