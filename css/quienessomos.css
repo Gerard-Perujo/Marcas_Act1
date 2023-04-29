@@ -190,4 +190,59 @@ footer{
         font-size: 17px;
     }
 }
+
+/* --- iPhone 12 Pro en posicion vertical --- */
+@media all and (width: 390px) and (orientation: portrait){
+    
+    .h3follow{
+        font-size: 10px;
+    }
+
+    .h3{
+        font-size: 10px;
+        text-align: center; 
+        margin-left: 15%;
+    }
+
+    .h3bis{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    img.logors{
+        width: 15%;
+        height: 15%;
+    }
+
+    .publi{
+        font-size: 10px;
+        margin-top: 77%;
+    }
+
+    p.piefoto{
+        font-size: 12px;
+    }
+
+    li{
+        font-size: 12px;
+      width: 7%;
+    }
+
+    h5{
+        font-size: 8px;
+    }
+
+    img.icono{
+        width: 15%;
+        height: 15%;
+    }
+
+    .info2{
+     
+    }
+    
+}
+
+
+/* --- iPhone 12 Pro en posicion horizontal --- */
  
