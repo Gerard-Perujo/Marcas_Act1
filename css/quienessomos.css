@@ -1,4 +1,5 @@
-/* CSS normal */
+/*-------------------------------------------CSS normal -------------------------------------------------*/
+/* --- Elementos generales --- */
 body{
     background-image: url("../img/watercolour.jpg");
     background-size: cover; 
@@ -9,7 +10,6 @@ main{
     width: 70%;
 }
 
-
 aside{
     float: right;
     text-align: center;
@@ -18,7 +18,7 @@ aside{
     margin-top: 3cm;
 }
 
-
+/* --- Contenido --- */
 .hotel{
     text-align: center;
     font-style: italic;
@@ -74,6 +74,8 @@ h3{
 .publi{
     margin-left: 20%;
 }
+
+/* --- Footer --- */
 
 footer{
     clear:both;
@@ -134,9 +136,9 @@ footer{
 
 
 
-/* --- Diseño responsivo --- */
+/*-------------------------------------------Diseño responsivo -------------------------------------------------*/
 
-/* iPad air en posicion vertical*/
+/* --- iPad air en posicion vertical --- */
 @media all and (width: 820px) and (orientation: portrait){
      .h3bis{
         font-size: 12px;
@@ -165,13 +167,14 @@ footer{
 }
 
 
-/*
-iPad air en posicion horizontal
+/* --- iPad air en posicion horizontal --- */
 @media all and (width: 1180px) and (orientation:landscape){
-    footer{
-        width: 380px;
-        font-size:smaller;
-        margin-right: 80%;
-    }   
+    h5{
+        font-size: 13px;
+    }
+
+    .h3, .h3follow, .h3bis{
+        font-size: 15px;
+    }
 }
-*/ 
+ 
