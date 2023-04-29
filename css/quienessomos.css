@@ -90,6 +90,20 @@ h3{
 
 /* Diseño responsivo */
 
-@media screen {
-    min-width: ;
+/* iPad air en posicion vertical*/
+@media all and (width: 820px) and (orientation: portrait){
+    footer{
+        /*width: 380px;*/
+        font-size:smaller;
+        margin-right: 95%;
+    }   
+}
+
+/* iPad air en posicion horizontal*/
+@media all and (width: 1180px) and (orientation:landscape){
+    footer{
+        /*width: 380px;*/
+        font-size:smaller;
+        margin-right: 80%;
+    }   
 }
