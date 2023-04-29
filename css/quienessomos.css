@@ -94,7 +94,6 @@ footer{
     margin-bottom: 75px;
 }
 
-
 .infomedio{
     
     width: 40%;
@@ -124,6 +123,36 @@ footer{
     width: 30px;
     height: 30px;
 }
+
+.h3{
+    text-align: right;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:20px;
+    font-style: normal;
+}
+
+.h3bis{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:10px;
+    font-style: normal;
+}
+
+.h3follow{
+    font-family:Arial, Helvetica, sans-serif;
+    padding:20px;
+    font-style: normal;
+    margin-left: 22%;
+    margin-top: 3%;
+}
+
+
+
+
+
+
+
+
 
 
 /* Diseño responsivo */
