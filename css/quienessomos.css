@@ -19,11 +19,6 @@ aside{
 }
 
 
-footer{
-    float:left;
-}
-
-
 .hotel{
     text-align: center;
     font-style: italic;
@@ -62,14 +57,6 @@ ol{
     text-align: left;
 }
 
-.footer{
-    font-size: 15px;
-    text-align: left;
-    margin-left: 20%;
-    width: auto;
-    list-style-type: none;
-}
-
 h3{
     font-style: italic;
     text-align: center;
@@ -87,6 +74,65 @@ h3{
 .publi{
     margin-left: 20%;
 }
+
+/*
+Otra opción footer
+footer{
+    float:left;
+}
+.footer{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 20%;
+    width: auto;
+    list-style-type: none;
+}
+*/
+
+footer{
+    /*border: 2px solid black;*/
+    width: 100%;
+    height: auto; 
+    display: flex;
+}
+
+.info1{
+    /*border: 1px solid rebeccapurple;*/
+    width: 30%;
+    height: 100%;
+    margin-top: 15px;
+    text-align: center;
+    
+}
+.icono{
+    width: 30px;
+    height: 30px;
+}
+
+
+.logors{
+    width: 60px;
+    height: 60px;
+    
+}
+
+.info2{
+    /*border: 1px solid red;*/
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    margin-top: 50px; 
+}
+
+
+.infomedio{
+    
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
 
 /* Diseño responsivo */
 
