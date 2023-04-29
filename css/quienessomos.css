@@ -90,38 +90,8 @@ footer{
 */
 
 footer{
-    /*border: 2px solid black;*/
-    width: 100%;
-    height: auto; 
-    display: flex;
-}
-
-.info1{
-    /*border: 1px solid rebeccapurple;*/
-    width: 30%;
-    height: 100%;
-    margin-top: 15px;
-    text-align: center;
-    
-}
-.icono{
-    width: 30px;
-    height: 30px;
-}
-
-
-.logors{
-    width: 60px;
-    height: 60px;
-    
-}
-
-.info2{
-    /*border: 1px solid red;*/
-    width: 30%;
-    height: 100%;
-    text-align: center;
-    margin-top: 50px; 
+    clear:both;
+    margin-bottom: 75px;
 }
 
 
@@ -131,6 +101,28 @@ footer{
     height: 100%;
     text-align: center;
     cursor: pointer;
+}
+.info2{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+   
+}
+.info1{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.logors{
+    width: 60px;
+    height: 60px;
+    word-spacing: 100px;
+}
+
+.icono{
+    width: 30px;
+    height: 30px;
 }
 
 
