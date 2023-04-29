@@ -134,29 +134,44 @@ footer{
 
 
 
-
-
-
-
-
-
-
-/* Diseño responsivo */
+/* --- Diseño responsivo --- */
 
 /* iPad air en posicion vertical*/
 @media all and (width: 820px) and (orientation: portrait){
-    footer{
-        /*width: 380px;*/
-        font-size:smaller;
-        margin-right: 95%;
-    }   
+     .h3bis{
+        font-size: 12px;
+        width: 100%;
+        margin-top: 2%;
+    }
+
+    .h3follow{
+        font-size: 12px;
+        margin-top: 5%;
+    }
+
+    footer.h3{
+        font-size: 12px;
+    }
+
+    h5{
+        font-size: 11px;
+    }
+
+    .h3{
+        text-align: center;
+        font-size: 12px;
+        width: 100%;
+    }
 }
 
-/* iPad air en posicion horizontal*/
+
+/*
+iPad air en posicion horizontal
 @media all and (width: 1180px) and (orientation:landscape){
     footer{
-        /*width: 380px;*/
+        width: 380px;
         font-size:smaller;
         margin-right: 80%;
     }   
 }
+*/ 
