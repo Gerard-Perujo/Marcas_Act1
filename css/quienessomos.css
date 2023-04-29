@@ -177,4 +177,15 @@ footer{
         font-size: 15px;
     }
 }
+
+/* --- Minimo 1300px --- */
+@media all and (min-width: 1300px){
+    .publi{
+      font-size: 19px;  
+    }
+
+    h5{
+        font-size: 17px;
+    }
+}
  
