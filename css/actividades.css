@@ -154,7 +154,7 @@ footer{
 }
 
 
-/*-------------------------------------------Diseño responsivo -------------------------------------------------*/
+/*-------------------------------------------Diseño responsive -------------------------------------------------*/
 
 /* --- iPad air en posicion vertical --- */
 @media all and (width: 820px) and (orientation: portrait){
@@ -178,7 +178,7 @@ footer{
     }
 }
 
-/* --- Minimo 1300px --- */
+/* --- Mínimo 1300px --- */
 @media all and (min-width: 1300px){
     h2{
         margin-right: 22%;
