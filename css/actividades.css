@@ -276,4 +276,15 @@ footer{
 
 
 /* --- iPhone 12 Pro en posicion horizontal --- */
- 
+@media all and (width: 844px) and (orientation: landscape){
+    h2{
+        font-size: 25px;
+        text-align: center;
+        margin-right: 22%;
+    }
+
+    button{
+        margin-left: 32%;
+    }
+
+}
