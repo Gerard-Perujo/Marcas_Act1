@@ -7,23 +7,24 @@
 }
 .menu{
     background-size: auto;
-    background-color: rgba(78, 69, 69, 0.61);
+    background-color: rgba(204, 231, 249, 0.999);
+    font-size: 20px;
 }
 
 .menu>li{
     list-style: none;
     display: inline-block;
     margin-left: 15%;
-    color: bisque;
+    color: rgb(0, 50, 98);
     text-decoration: none;
 }
 
 .menu li:hover{
-    background-color:red;
+    background-color:rgb(126, 198, 228);
     transition: all .8s;
 }
 .menu li a:hover{
-    background-color:red;
+    background-color:rgb(126, 198, 228);
     transition: all .8s;
 }
 

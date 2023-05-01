@@ -4,21 +4,16 @@ header{
     /*border: 2px solid black;*/
     background-color: rgb(204, 231, 249);
     width: 100%;
-    height: 150px; /*CAMBIAR A AUTO*/
+    height: 130px; /*CAMBIAR A AUTO*/
     display: flex;
 }
+
 
 .logo{
    /* border: 1px solid rebeccapurple;*/
     width: 30%;
     height: 100%;
     
-}
-
-.imglogo{
-    width: 150px;
-    height: 150px;
-    float: right;
 }
 
 .enlaces{
@@ -32,14 +27,14 @@ header{
 
 
 .boton {
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
 }
 
   
 .boton button {
-    background-color: #95f098;
+    background-color: #000e79;
     border: none;
     color: rgb(246, 255, 247);
     padding: 12px 24px;
@@ -60,8 +55,8 @@ header{
     color:rgb(204, 231, 249);
     font-size: 40px;
     margin-top: 140px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    
 }
 .titulo2{
     color:rgb(204, 231, 249);
@@ -70,7 +65,7 @@ header{
     font-family: 'Courier New', Courier, monospace;
 }
 .principal{
-    background-image: url("/img/images003.jpg");
+    background-image: url("/Marcas_Act1/img/images003.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
@@ -78,6 +73,7 @@ header{
     width: 100%;
     height: 800px; /*CAMBIAR A AUTO*/
     display: flex;
+  
 
 }
 
@@ -104,6 +100,7 @@ header{
     width: 40%; 
     height: 100%;
     margin-top: 100px;
+
 }
 
 .vacia2{
@@ -116,6 +113,8 @@ header{
 
 h1{
     text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    
 }
 
 /* SECTION SERVICIOS*/
@@ -127,7 +126,6 @@ h1{
     display: flex;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-
 }
 
 .servicio1{
@@ -169,7 +167,7 @@ h1{
     /*border: 2px solid black;*/
     width: 100%;
     height: 450px; 
-    margin-top: 7%; 
+    margin-top: 5%; 
 }
 
 .foto1{
@@ -178,7 +176,7 @@ h1{
     height: 100%;
     text-align: center;
     float: left;
-    background-color: red;
+    /*background-color: red;*/
 } 
 
 .habitaciones{
@@ -186,6 +184,7 @@ h1{
     height: 440px;
     border-radius: 10px;
     box-shadow: 10px;
+   
 }
 
 .texto1{
@@ -200,11 +199,14 @@ h1{
 
 
 /*SECTION HABITACION 2*/
+
+
+
 .habitacion2{
     /*border: 2px solid black;*/
     width: 100%;
     height: 450px; 
-    margin-top: 7%;
+    margin-top: 5%;
     
 }
 
@@ -224,7 +226,7 @@ h1{
     height: 100%;
     text-align: center;
     float: right;
-    background-color: rebeccapurple;
+    /*background-color: rebeccapurple;*/
 }
 
 .foto2 img{
@@ -244,15 +246,16 @@ aside img{
     width: 200px;
     height: 200px;
     padding: 7%;
-    margin-left: 180%;
+    margin-left: 215%;
+    margin-bottom: 50px;
     float: bottom; 
  
    
 }
 aside{
     width: 100%;
-    height: 200px;
-    background-color: darkorange;
+    height: 250px;
+    /*background-color: darkorange;*/
     display: inline-flex;
 }
 
@@ -280,8 +283,8 @@ footer{
     
 }
 .icono{
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 }
 
 
@@ -311,7 +314,54 @@ footer{
 
 /*TIPOS DE MEDIO*/
 
-@media(max-width: 700px){
+@media (max-width: 700px){
+    header{
+        width:98%;            
+    }
+    nav{
+        width: 98%;
+    }
+
+    body{
+        background-color: #b3660f;
+    }
+
+    main{
+        width: 98%;
+    }
+    section{
+        width: 98%;
+    }
+
+    titulo{
+        width: 98%;
+    }
+    titulo2{
+        width: 98%;
+    }
+    principal{
+        width: 98%;
+    }
+    servicios{
+        width: 98%;
+    }
+}
+
+@media screen and (min-width: 576px){
+    
+    header{
+  
+    grid-template:
+      "cabecera cabecera" 100px
+      "navbar   navbar"   50px
+      "sidebar  main"     auto
+      "footer   footer"   100px /
+      200px     auto; 
+  }
+    
+}
+
+/*@media(max-width: 700px){
     .habitacion1{
         width: auto;
         height: 380px; 
@@ -385,4 +435,5 @@ footer{
     }
 
 
-}
+}*/
+
