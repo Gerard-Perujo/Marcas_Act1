@@ -1,4 +1,13 @@
 /*CABECERA*/
+main{
+
+    background-color: rgb(204, 231, 249);
+}
+
+body{
+    
+    background-color: rgb(204, 231, 249);
+}
 
 header{
     /*border: 2px solid black;*/
@@ -52,20 +61,20 @@ header{
 /*SECTION PRINCIPAL*/
 
 .titulo{
-    color:rgb(204, 231, 249);
+    color:rgb(255, 255, 255);
     font-size: 40px;
     margin-top: 140px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     
 }
 .titulo2{
-    color:rgb(204, 231, 249);
+    color:rgb(255, 255, 255);
     font-size: 30px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 .principal{
-    background-image: url("/Marcas_Act1/img/images003.jpg");
+    background-image: url("/img/images003.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
@@ -126,18 +135,38 @@ h1{
     display: flex;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    
+    
 }
 
 .servicio1{
     /*border: 1px solid rebeccapurple;*/
     width: 20%;
     height: 100%;
+    /*box-shadow: 10px 10px 10px rgb(59, 53, 53);*/
+    
+}
+.servicio1 img{
+    box-shadow: 10px 10px 10px rgb(59, 53, 53);
+}
+.servicio2 img{
+    box-shadow: 10px 10px 10px rgb(59, 53, 53);
+}
+.servicio3 img{
+    box-shadow: 10px 10px 10px rgb(59, 53, 53);
+}
+.servicio4 img{
+    box-shadow: 10px 10px 10px rgb(59, 53, 53);
+}
+.servicio5 img{
+    box-shadow: 10px 10px 10px rgb(59, 53, 53);
 }
 
 .servicio2{
     /*border: 1px solid green;*/
     width: 20%;
     height: 100%;
+    
 }
 
 .servicio3{
@@ -250,13 +279,13 @@ aside img{
     margin-bottom: 50px;
     float: bottom; 
  
-   
 }
 aside{
     width: 100%;
     height: 250px;
-    /*background-color: darkorange;*/
+    background-color: rgb(204, 231, 249);
     display: inline-flex;
+    
 }
 
 aside h3{
